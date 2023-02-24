@@ -7,7 +7,7 @@ Tech Stack: Java, JUnit, Maven, Cucumber
 **How to run?**
 * Open command prompt and go to application folder
 * Write "mvn clean verify" and hit enter
-* If you want to run specific feature, get the feature tag and set it into tags in TestRunner class
+* If you want to run specific feature, use the maven command -> mvn clean test -q -Dcucumber.filter.tags="@tag"
 
 **How to run with Jenkins?**
 * Create a job and set Maven targets as "clean verify"
