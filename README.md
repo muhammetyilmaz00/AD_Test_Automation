@@ -11,6 +11,7 @@ Tech Stack: Java, JUnit, Maven, Cucumber
 
 **How to run with Jenkins?**
 * Create a job and set Maven targets as "clean verify"
+
 ![img_1.png](jenkins_maven.png)
 
 **Report**
